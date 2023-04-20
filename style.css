@@ -1,0 +1,50 @@
+@font-face {
+    font-family: RudawFont;
+    src: url('./NRT-Reg.ttf');
+}
+
+body{
+    direction: rtl;
+    background-color: rgb(235, 234, 234);
+}
+
+h1{
+    font-family: RudawFont;
+    text-align: center;
+    font-size: 72px;
+}
+.first-h6{
+    font-family: RudawFont;
+    text-align: center;
+    font-size: 24px;
+}
+img{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.second-h6{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.first-h4{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+.div-1{
+    display: flex; 
+    justify-content: space-around; 
+   }
+   .second-h4{
+font-size: 20px;
+text-align: center;
+   }
+   .third-h6{
+    font-size: 16px;
+    color:grey;
+    text-align: center;
+   }
