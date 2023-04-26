@@ -5,7 +5,7 @@
 
 body{
     direction: rtl;
-    background-color: rgb(235, 234, 234);
+    background-color: #F8F9FA;
 }
 
 h1{
@@ -18,7 +18,7 @@ h1{
     text-align: center;
     font-size: 24px;
 }
-img{
+.img1{
    
     display: block;
     margin-left: auto;
@@ -38,13 +38,186 @@ img{
 .div-1{
     display: flex; 
     justify-content: space-around; 
+    margin-top: 100px;
    }
    .second-h4{
 font-size: 20px;
-text-align: center;
+font-family: RudawFont;
+
    }
    .third-h6{
+    font-family: RudawFont;
     font-size: 16px;
     color:grey;
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   
    }
+  .div-numbers{
+text-align: center;
+  }
+  .img-2{
+    margin-top: 20px;
+  
+  }
+  .h5-one{
+ font-family: RudawFont;
+font-weight: 700;
+font-size: 20px;
+line-height: 2px;
+  }
+  .h1-five{
+    font-weight: 700;
+font-size: 39px;
+line-height: 50px;
+text-align: right;
+  }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        
+      }
+
+      .wrapper2 {
+        display: grid;
+        grid-template-rows: 200px 200px ;
+       row-gap: 100px;
+      
+        
+        
+      }
+      .box {
+       background-color: white;
+       box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+       border-radius: 24px;
+       width: 266px;
+       height: 265px;
+    
+       
+     
+      }
+      .box2{
+        
+          background-color: white;
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+          border-radius: 24px;
+          width: 266px;
+          height: 265px;
+           margin-top: 150px;
+          
+          
+         
+         
+      }
+      .second-h1{
+        font-family: 'Montserrat';
+        font-weight: 700;
+font-size: 72px;
+
+text-align: center;
+
+      }
+      
+      .forth-h6{
+        font-family: RudawFont;
+        color:grey;
+        text-align: center;
+        
+font-weight: 400;
+font-size: 13px;
+
+       
+       }
+       .icons{
+        margin-top: 12px;
+        margin-right: 12px;
+       }
+
+       .check-icon{
+        margin-right: 300px;
+       }
+
+       .div-class{
+        background-color: white;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+        border-radius: 10px;
+        width: 350px;
+        height: 224px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+        margin-left: 20px;
+       }
+       .section-4{
+        margin-right: 70px;
+       }
+       .h5-two{
+        font-family: RudawFont;
+font-weight: 700;
+font-size: 20px;
+line-height: 2px;
+text-align: center;
+       }
+       .h1-six{
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 50px;
+        text-align: center;
+       }
+       .price{
+        font-style: normal;
+        font-family: RudawFont;
+font-weight: 700;
+font-size: 72px;
+line-height: 80px;
+text-align: center;
+       }
+       .div-class-2{
+        background: #FFFFFF;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+border-radius: 12px;
+text-align: center;
+height: 440px;
+width: 540px;
+left: 0px;
+top: 0px;
+margin-left: 2px;
+margin-right: 2px;
+
+       }
+
+       button{
+        
+        height: 58px;
+        width: 427px;
+        left: 56.5px;
+        top: 327px;
+        border-radius: 4px;
+        padding: 16px 162px 16px 162px;
+border-style: none;        
+color: white;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+
+background: #0BAACA;
+border-radius: 4px;
+       }
+       .red-text{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 24px;
+/* identical to box height, or 89% */
+
+text-align: center;
+letter-spacing: -0.2px;
+
+color: #FF0000;
+margin-top: 40px;
+margin-bottom: 100px;
+       }
