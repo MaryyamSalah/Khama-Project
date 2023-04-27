@@ -6,6 +6,8 @@
 body{
     direction: rtl;
     background-color: #F8F9FA;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 h1{
@@ -44,6 +46,11 @@ h1{
 font-size: 20px;
 font-family: RudawFont;
 
+   }
+   .content-h6{
+    font-family: RudawFont;
+    font-size: 16px;
+    color:grey;
    }
    .third-h6{
     font-family: RudawFont;
@@ -220,4 +227,68 @@ letter-spacing: -0.2px;
 color: #FF0000;
 margin-top: 40px;
 margin-bottom: 100px;
+       }
+       .img-icon{
+        filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.0364401));
+border-radius: 24px;
+margin-left: 200px;
+margin-right: 50px;
+       }
+       .test{
+     margin: 70px;
+      
+       }
+       .last{
+        background: #0F66BC;
+        height: 348px;
+        width: 1400px;
+        padding-top: 50px;
+   
+        
+       }
+       .call-div{
+        margin: 1rem;
+ padding-top: 60px ;
+  text-align: center;
+        height: 188px;
+width: 1110px;
+display: block;
+
+
+margin-left: auto;
+margin-right: auto;
+
+border-radius: 12px;
+background: white;
+       }
+       .contents {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+      }
+      .call-button{
+        width: 277px;
+height: 68px;
+padding: 0px;
+
+background: #15F57C;
+border-radius: 11px;
+      }
+      footer{
+        height: 40px;
+      }
+      .div-footer{
+        display: flex; 
+        justify-content: flex-start; 
+        margin-top: 20px;
+    
+      
+       }
+       .copy{
+        direction: ltr;
+        margin-right: 500px;
+       }
+       .svg-icon{
+        margin-left: 20px;
+        margin-right: 20px;
        }
