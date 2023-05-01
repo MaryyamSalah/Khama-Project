@@ -39,8 +39,15 @@ h1{
 }
 .div-1{
     display: flex; 
+    justify-content: space-between; 
+    margin-top: 100px;
+  
+   }
+   .div-2{
+    display: flex; 
     justify-content: space-around; 
     margin-top: 100px;
+  
    }
    .second-h4{
 font-size: 20px;
@@ -51,6 +58,8 @@ font-family: RudawFont;
     font-family: RudawFont;
     font-size: 16px;
     color:grey;
+    margin-right: 50px;
+    margin-left: 20px;
    }
    .third-h6{
     font-family: RudawFont;
@@ -72,12 +81,14 @@ text-align: center;
 font-weight: 700;
 font-size: 20px;
 line-height: 2px;
+margin-right: 50px;
   }
   .h1-five{
     font-weight: 700;
 font-size: 39px;
 line-height: 50px;
 text-align: right;
+margin-right: 50px;
   }
 
     .wrapper {
@@ -142,7 +153,8 @@ font-size: 13px;
        }
 
        .check-icon{
-        margin-right: 300px;
+        margin-right: 200px;
+        margin-top: 20px;
        }
 
        .div-class{
@@ -156,11 +168,10 @@ font-size: 13px;
         padding-left: 40px;
         padding-right: 40px;
         
-        margin-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
        }
-       .section-4{
-        margin-right: 70px;
-       }
+     
        .h5-two{
         font-family: RudawFont;
 font-weight: 700;
@@ -192,7 +203,7 @@ width: 540px;
 left: 0px;
 top: 0px;
 margin-left: 2px;
-margin-right: 2px;
+
 
        }
 
@@ -232,16 +243,15 @@ margin-bottom: 100px;
         filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.0364401));
 border-radius: 24px;
 margin-left: 200px;
-margin-right: 50px;
+
        }
-       .test{
-     margin: 70px;
+    
       
-       }
+       
        .last{
         background: #0F66BC;
         height: 348px;
-        width: 1400px;
+        width: 1349px;
         padding-top: 50px;
    
         
